@@ -38,6 +38,7 @@ let getJSONData = function(url){
         hideSpinner();
         return result;
     });
+
 }
 
 
@@ -48,3 +49,6 @@ document.addEventListener('DOMContentLoaded', () =>{
     location.href = 'login.html'
   }
 })
+
+}
+
