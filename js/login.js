@@ -1,6 +1,17 @@
 document.addEventListener('DOMContentLoaded', () =>{
+
+    const contenedor = document.getElementById('contenedor-login');
     const boton = document.getElementById('boton-enviar');
     boton.addEventListener('click', login)
+
+    
+    contenedor.addEventListener('keypress', function (event){
+        if(event.key === 'Enter'){
+            login();
+        }
+    })
+
+    
 })
 
 function login(){
