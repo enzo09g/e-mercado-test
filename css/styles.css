@@ -191,7 +191,7 @@ a.custom-card:hover {
 
 
 
-
+/* Comienzo de estilos lista-productos */
 
 .contenedor-producto{
   display: flex;
@@ -237,4 +237,38 @@ a.custom-card:hover {
 
 .contenedor-titulo{
   text-align: center;
+}
+
+/* Fin de estilos lista-productos */
+
+/* Comienzo de estilos login */
+
+.contenedor-login{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  font-family: raleway;
+}
+
+#titulo-login{
+  text-align: center;
+  padding: 1em;
+  letter-spacing: 0.2em;
+}
+
+#boton-enviar{
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
+  border-radius: 50%;
+}
+
+.input-login:focus{
+  background-color: rgba(245, 245, 220, 0.404);
 }
