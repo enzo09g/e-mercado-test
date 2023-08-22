@@ -249,7 +249,7 @@ a.custom-card:hover {
   width: 50%;
 }
 
-.container{
+.contenedor-container{
   width: 50%;
   display: flex;
   justify-content: center;
@@ -272,3 +272,10 @@ a.custom-card:hover {
 .input-login:focus{
   background-color: rgba(245, 245, 220, 0.404);
 }
+
+.solo-para-centrar{
+  display: flex;
+  justify-content: center;
+}
+
+/* Fin de estilos login */
